@@ -1,0 +1,50 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .dashboard-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .project-box {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .status-text {
+    font-weight: bold;
+    color: #4caf50; /* Green for accepted status */
+  }
+  
+  .idea-text {
+    font-style: italic;
+    color: #7a7a7a;
+  }
+  
+  .remarks-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fffbcc;
+    border-left: 5px solid #f39c12;
+    border-radius: 5px;
+  }
+  
+  .remarks-box h4 {
+    font-weight: bold;
+  }
+  
+  .remarks-box p {
+    font-size: 1rem;
+    color: #7a7a7a;
+  }
+  
